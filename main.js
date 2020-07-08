@@ -25,6 +25,7 @@ function stringTime() {
 }
 const enableDarkMode = () => {
   document.body.style.backgroundColor = "#141516";
+  document.getElementById("dark").innerHTML = "light";
   document.body.style.color = "#FFFFFF";
   document.getElementsByTagName("NAV")[0].style.color = "#FFFFFF";
   document.getElementById("dark").style.color = "#FFFFFF";
@@ -33,6 +34,8 @@ const enableDarkMode = () => {
 const disableDarkMode = () => {
   document.body.style.backgroundColor = "#FFFFFF";
   document.body.style.color = "#000000";
+  document.getElementById("dark").innerHTML = "dark";
+  document.body.style.color = "#FFFFFF";
   document.getElementsByTagName("NAV")[0].style.color = "#000000";
   document.getElementById("dark").style.color = "#000000";
   localStorage.setItem("darkMode", null);
