@@ -20,7 +20,7 @@ function stringTime() {
   greet = "";
   if (hrs < 12) greet = "morning";
   else if (hrs >= 12 && hrs <= 17) greet = "afternoon";
-  else if (hrs >= 19 && hrs <= 24) greet = "evening";
+  else if (hrs >= 18 && hrs <= 24) greet = "evening";
   return greet;
 }
 const enableDarkMode = () => {
@@ -29,6 +29,8 @@ const enableDarkMode = () => {
   document.body.style.color = "#FFFFFF";
   document.getElementsByTagName("NAV")[0].style.color = "#FFFFFF";
   document.getElementById("dark").style.color = "#FFFFFF";
+  document.getElementById("time").style.color = "#FFFFFF";
+  document.getElementById("greeting").style.color = "#FFFFFF";
   localStorage.setItem("darkMode", "enabled");
 };
 const disableDarkMode = () => {
@@ -38,6 +40,8 @@ const disableDarkMode = () => {
   document.body.style.color = "#FFFFFF";
   document.getElementsByTagName("NAV")[0].style.color = "#000000";
   document.getElementById("dark").style.color = "#000000";
+  document.getElementById("time").style.color = "#000000";
+  document.getElementById("greeting").style.color = "#000000";
   localStorage.setItem("darkMode", null);
 };
 if (darkMode == "enabled") {
