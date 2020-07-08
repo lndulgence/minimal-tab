@@ -1,9 +1,9 @@
 {
     "manifest_version": 2,
     "version":"0.1",
-    "name": "jacques-andre new tab extension",
+    "name": "Jacques-andre minimal extension",
     "author": "Jacques Andre",
-    "description":"new tab page based on Mariusz Z's 'basic startpage'",
+    "description":"Minimal new tab page based on Mariusz Z's 'basic startpage'",
     "chrome_url_overrides" : {
         "newtab": "index.html"
     }
