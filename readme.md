@@ -23,7 +23,8 @@ Edit the index.html to include any links you want.
 </ul>
 ```
 
-#### Screens:
+### Screens:
 <img align='center' src='assets/dark.png'></img>
+<hr>
 <img align='center' src='assets/light.png'></img>
 
