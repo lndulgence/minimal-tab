@@ -19,8 +19,8 @@ function stringTime() {
   var hrs = myDate.getHours();
   greet = "";
   if (hrs < 12) greet = "morning";
-  else if (hrs >= 12 && hrs <= 17) greet = "afternoon";
-  else if (hrs >= 18 && hrs <= 24) greet = "evening";
+  else if (hrs >= 12 && hrs <= 17) greet = "afternoon"; // 12pm - 5pm
+  else if (hrs >= 18 && hrs <= 24) greet = "evening"; // 6pm - 12am
   return greet;
 }
 const enableDarkMode = () => {
@@ -52,10 +52,8 @@ darkModeToggle.addEventListener("click", () => {
   darkMode = localStorage.getItem("darkMode");
   if (darkMode !== "enabled") {
     enableDarkMode();
-    console.log(darkMode);
   } else {
     disableDarkMode();
-    console.log(darkMode);
   }
 });
 function main() {
