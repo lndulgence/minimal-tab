@@ -1,4 +1,4 @@
-# Minimal new tab page
+# minimal-tab
 <img align='center' src='assets/demo.gif'></img>
 
 ### Features: 
