@@ -1,39 +1,48 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <title>New Tab</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="info">
-      <p id="time"></p>
-      <p id="greeting"></p>
+        <p id="time"></p>
+        <p id="greeting"></p>
+        <div class="weather">
+            <p id="desc">...</p>
+            <p id="temp">...</p>
+        </div>
     </div>
     <div class="container">
-      <nav>
-        <ul>
-          <li>utils</li>
-          <li><a href="https://www.protonmail.com/login">proton</a></li>
-          <li><a href="https://send.firefox.com/">send</a></li>
-          <li><a href="https:/imgur.com/">imgur</a></li>
-        </ul>
-        <ul>
-          <li>social</li>
-          <li><a href="https://news.ycombinator.com/">hacker-news</a></li>
-          <li><a href="https://www.producthunt.com">product-hunt</a></li>
-          <li><a href="https://www.reddit.com">reddit</a></li>
-        </ul>
-        <ul>
-          <li>dev</li>
-          <li><a href="https://stackoverflow.com/">stack</a></li>
-          <li><a href="https://github.com/jacques-andre">github</a></li>
-        </ul>
-      </nav>
-      <div class="img-wrapper">
-        <img src="img/cosy.png" />
-        <p id="dark">dark</p>
-      </div>
+        <nav>
+            <ul>
+                <li>utils</li>
+                <li><a href="https://www.protonmail.com/login">proton</a></li>
+                <li><a href="https://send.firefox.com/">send</a></li>
+                <li><a href="https:/imgur.com/">imgur</a></li>
+            </ul>
+            <ul>
+                <li>social</li>
+                <li><a href="https://news.ycombinator.com/">hacker-news</a></li>
+                <li><a href="https://www.producthunt.com">product-hunt</a></li>
+                <li><a href="https://www.reddit.com">reddit</a></li>
+            </ul>
+            <ul>
+                <li>dev</li>
+                <li><a href="https://stackoverflow.com/">stack</a></li>
+                <li><a href="https://github.com/jacques-andre">github</a></li>
+            </ul>
+        </nav>
+        <div class="img-wrapper">
+            <img src="img/cosy.png" />
+            <p id="dark">dark</p>
+        </div>
     </div>
+    <!--This file houses the api keys and city id for openweathermap-->
+    <script src="config.js"></script>
     <script src="main.js"></script>
-  </body>
+</body>
+
 </html>

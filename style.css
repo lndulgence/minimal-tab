@@ -72,6 +72,19 @@ img {
 #greeting {
     margin: 0;
 }
+.weather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+#desc{
+    margin: 0 5px;
+}
+#temp{
+    margin:5px 0;
+    font-size: 12px;
+}
 .img-wrapper {
     display: flex;
     justify-content: center;
