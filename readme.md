@@ -1,7 +1,8 @@
 # minimal-tab
+
 <img align='center' src='assets/demo.gif'></img>
 
-### Features: 
+## Features: 
 - Time
 - Greeting
 - Dark mode toggle (stored in localstorage)
