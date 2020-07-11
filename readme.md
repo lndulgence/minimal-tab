@@ -16,7 +16,7 @@ Based on: ["simple start page" by: Mariusz Z](https://stpg.tk/guides/basic-start
 
 ### How to setup weather?
 
-First you will need to generate an api key from [openweathermap](https://openweathermap.org/api). Then find out what the city id for your location. Ex:`London = 2643743`.
+First you will need to generate an api key from [openweathermap](https://openweathermap.org/api). Then find out what the city id is for your location. Ex:`London = 2643743`.
 
 Create a `config.js` file that will house these values.
 
