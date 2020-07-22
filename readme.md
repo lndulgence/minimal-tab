@@ -1,6 +1,6 @@
 # minimal-tab
 
-<img align='center' src='assets/demo.gif'></img>
+<img align='center' src='.github/demo.gif'></img>
 
 ## Features: 
 - Time
@@ -28,8 +28,8 @@ let config = {
     CITY_ID: "your_city_id"
 }
 ```
-### How to change links?
-Edit the index.html to include any links you want.
+
+### Structure:
 
 ```html
  <ul>
@@ -40,7 +40,8 @@ Edit the index.html to include any links you want.
 ```
 
 ### Screens:
-<img align='center' src='assets/dark.png'></img>
+<img align='center' src='.github/dark.png'></img>
 <hr>
-<img align='center' src='assets/light.png'></img>
+<img align='center' src='.github/light.png'></img>
 
+#### [imgur](https://imgur.com/a/ZlQtX3y)

@@ -37,8 +37,7 @@ async function getTemp() {
 }
 getTemp()
 const enableDarkMode = () => {
-    document.body.style.backgroundColor = "#141516";
-    document.getElementById("dark").innerHTML = "light";
+    document.body.style.backgroundColor = "#141516"; document.getElementById("dark").innerHTML = "light";
     document.body.style.color = "#FFFFFF";
     document.getElementsByTagName("NAV")[0].style.color = "#FFFFFF";
     document.getElementById("dark").style.color = "#FFFFFF";
@@ -76,7 +75,7 @@ darkModeToggle.addEventListener("click", () => {
 function main() {
     // adds the data to the text
     document.getElementById("time").innerHTML = formatAMPM(new Date());
-    document.getElementById("greeting").innerHTML = "good " + stringTime();
+    document.getElementById("greeting").innerHTML = "good " + stringTime() + ", your_name_here"; // replace your_name_here with your name make sure to keep spacing.
 }
 setInterval(function () {
     // update the time
