@@ -1,4 +1,5 @@
-# minimal-tab
+<h1>🖼  minimal-tab</h1>
+<br>
 
 <img align='center' src='.github/demo.gif'></img>
 
