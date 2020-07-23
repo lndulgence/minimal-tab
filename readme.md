@@ -41,8 +41,9 @@ let config = {
 ```
 
 ### Screens:
+#### [imgur](https://imgur.com/a/ZlQtX3y)
 <img align='center' src='.github/dark.png'></img>
 <hr>
 <img align='center' src='.github/light.png'></img>
 
-#### [imgur](https://imgur.com/a/ZlQtX3y)
+
