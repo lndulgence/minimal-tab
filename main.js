@@ -3,8 +3,8 @@ let darkMode = localStorage.getItem("darkMode");
 const darkModeToggle = document.querySelector("#dark");
 
 // pulls in api and city id from config.js file 
-let api_key = config.API_KEY
-let city_id = config.CITY_ID
+//let api_key = config.API_KEY
+//let city_id = config.CITY_ID
 
 function formatAMPM(date) {
     // get time in 12hr format
@@ -28,7 +28,7 @@ function stringTime() {
     return greet;
 }
 async function getTemp() {
-    let response = await fetch(`https://api.openweathermap.org/data/2.5/weather?id=${city_id}&units=metric&appid=${api_key}`);
+    let response = await fetch(`https://api.openweathermap.org/data/2.5/weather?id=3117735&units=metric&appid=35ca65a52a0c926eccd6fcb5e33b4954`);
     let data = await response.json();
     let desc = data['weather'][0]['main'];
     let temp = Number(data['main']['temp']).toFixed(0);
@@ -75,7 +75,7 @@ darkModeToggle.addEventListener("click", () => {
 function main() {
     // adds the data to the text
     document.getElementById("time").innerHTML = formatAMPM(new Date());
-    document.getElementById("greeting").innerHTML = "good " + stringTime() + ", your_name_here"; // replace your_name_here with your name make sure to keep spacing.
+    document.getElementById("greeting").innerHTML = "good " + stringTime() + ", Indul."
 }
 setInterval(function () {
     // update the time
