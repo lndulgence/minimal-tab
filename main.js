@@ -75,7 +75,7 @@ darkModeToggle.addEventListener("click", () => {
 function main() {
     // adds the data to the text
     document.getElementById("time").innerHTML = formatAMPM(new Date());
-    document.getElementById("greeting").innerHTML = "good " + stringTime() + ", Indul."
+    document.getElementById("greeting").innerHTML = "Good " + stringTime() + ", Indul."
 }
 setInterval(function () {
     // update the time
